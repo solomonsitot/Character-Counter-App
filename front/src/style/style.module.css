@@ -1,0 +1,124 @@
+.container {
+    background: #121212;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  
+    align-items: center;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #c39ae0, #6a11cb);
+    border-radius: 50%;
+  }
+  /* .settingsButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  } */
+  .title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .textarea {
+    width: 98%;
+    height: 100px;
+    background: #1e1e1e;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    resize: none;
+  }
+  .optionsWrapper {
+    width: 95%;
+  }
+  
+  .readTime {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+  .stats {
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .statBox {
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .statBox1 {
+    background-color: #d4a1f8;
+  }
+  
+  .statBox2 {
+    background-color: #ff9f00;
+  }
+  
+  .statBox3 {
+    background-color: #ff8159;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .optionsWrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    .contentWrapper {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .statBox {
+      width: 30%;
+    }
+    .textarea {
+      width: 98%;
+    }
+    .options {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .textarea {
+      width: 98%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .contentWrapper {
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
