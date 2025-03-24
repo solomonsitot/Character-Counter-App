@@ -3,6 +3,7 @@ A real-time text analysis tool built with React, TypeScript, Redux, and Modular 
 
 Features
 ✅ Character, word, and sentence counting
+
 ✅ Option to exclude spaces in character count
 ✅ Set a custom character limit
 ✅ Letter density analysis
