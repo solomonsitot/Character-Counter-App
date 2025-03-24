@@ -10,13 +10,10 @@ Features
 ✅ Responsive design for different screen sizes
 
 Tech Stack
-*React – UI library
-
-TypeScript – Strongly typed JavaScript
-
-Redux Toolkit – State management
-
-Modular CSS – Component-specific styling
+#React – UI library
+#TypeScript – Strongly typed JavaScript
+#Redux Toolkit – State management
+#Modular CSS – Component-specific styling
 
 Installation & Setup
 1. Clone the Repository
